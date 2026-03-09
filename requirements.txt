@@ -1,0 +1,11 @@
+openai
+google-genai
+groq
+python-dotenv
+ollama
+langchain 
+langchain-community 
+langchain-ollama
+langchain-google-genai
+google-generativeai
+langchain-groq

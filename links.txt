@@ -1,0 +1,5 @@
+https://platform.openai.com/settings/organization/api-keys
+https://console.groq.com/keys
+https://aistudio.google.com/api-keys
+https://openrouter.ai/settings/keys
+https://ollama.com/download/windows
