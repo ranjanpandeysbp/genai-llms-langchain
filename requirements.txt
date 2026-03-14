@@ -3,9 +3,16 @@ google-genai
 groq
 python-dotenv
 ollama
-langchain 
+langchain
+langchain-core
 langchain-community 
 langchain-ollama
 langchain-google-genai
 google-generativeai
 langchain-groq
+langgraph
+faiss-cpu
+pypdf
+mysql-connector-python
+yfinance>=0.2.40
+duckduckgo-search>=6.0.0
