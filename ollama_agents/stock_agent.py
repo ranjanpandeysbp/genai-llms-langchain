@@ -467,7 +467,7 @@ def search_stock_news(query: str) -> str:
     """
     try:
         from duckduckgo_search import DDGS
-        results = DDGS().text(f"{query} stock news 2025", max_results=5)
+        results = DDGS().text(f"{query} stock news 2026", max_results=5)
         if not results:
             return "No news found."
         out = f"📰 NEWS — '{query}':\n\n"
@@ -562,6 +562,7 @@ llm = ChatOllama(
     model=model,
     temperature=0.3,
     base_url=ollama_base_url,
+    think=False,   # Ollama-native param to disable Qwen3 thinking/reasoning
 )
 
 ALL_TOOLS = [
